@@ -1,117 +1,115 @@
-a {font-family: Arial, sans-serif;
+a { 
+  font-family: Arial, sans-serif;
   font-size: 20px;
-  }
-  a:link    { color: #d62828;  
+}
+
+a:link { 
+  color: #d62828;  
   font-family: "Playfair Display", Times, serif;
-  font-size: 18px;
-  }
-  body { background-color: #eae2b7; }
+  font-size: 14px;
+}
 
-  a:hover { color:#f77f00; }
-  img {width: 300px;
-  }
+body { 
+  background-color: #eae2b7; 
+}
 
-  h1{text-align: center;}
-  nav{text-align: center;}
-  h2{text-align: center;}
-  h3{text-align:center;}
-  h4{text-align: rigth;}
+a:hover { 
+  color:#f77f00; 
+}
 
-  footer{text-align: center;}
+img {
+  width: 50px;
+}
 
+h1, h2, h3, h4, nav, footer {
+  text-align: center;
+}
 
-  .contact { display : flex,
-  flex-direction : column,
-  align-item : center }
+h4 { 
+  text-align: right; 
+}
 
-  .image-circle 
-  {border-color: black;
+.contact { 
+  display: flex;
+  flex-direction: colum;
+  align-items: center; /
+}
+
+.image-circle {
+  border-color: black;
   border-width: 2px;
   border-style: solid;
   border-radius: 50%; 
-  margin-left:3px;
-  }
+  margin-left: 3px;
+}
 
-
-  h1, {font-family: "Playfair Display", Times, san serif;
-  font-size: 48px;
-  font-color: #133e5c;}
-
-  h2,{font-family: "Playfair Display", Times, serif;
-     font-size: 30px;
-     font-color: #133e5c;
-     }
-
-  h3 {font-family: "Playfair Display", Times, serif;
-    font-size: 25px;
-    font-color: #133e5c;
-  }
-
-  h4 {font-family: "Playfair Display", Times, serif;
-    font-size: 20px;
-    font-color: #003049; }
-
-
-  p {font-family: "Playfair Display", Times, serif;
-    font-size: 16px;
-    font-color: #003049;
-
-  }
-
-  li {font-family: "Playfair Display", Times, serif;
-    font-size: 18px;
-    font-color: #003049}
-
-  article {
+h1, h2, h3, h4, p, li, article {
   font-family: "Playfair Display", Times, serif;
-  font-color: #003049;}
+  color: #003049; /
+}
 
-  article div {
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 14px;
+}
+
+article div {
   text-align: center;
-  width: 100%;
+  width: 50%;
+}
 
-  }
-
-  p {line-height: 1.5;
-  }
-
-  /* The div container constrains the content width within the main container to 600px */
-  div {
+div {
   margin: auto;
   width: 600px;
-  }
+}
 
-  img {
+img {
   width: 100%;
   max-width: 200px;
   height: auto;
-  aligh: center;
   display: block;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
 
+ hr {
+   border: 1px solid black;
+   width: 100%;
+ }
 
-  hr {
-  border: 1px solid black;
-    width: 25%;}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 3%;
+}
 
-  .image-row {
-    display: flex;
-    justify-content: space-between; 
+.image-container {
+  text-align: center;
+  width: 50%;
+}
 
-    }
-
-    align-items:center ; /* Align items to the top */
-
-    gap: 10%; /* Optional: Adds spacing between the image containers */
-  }
-
-  .image-container {
-    text-align: center; /* Center title, image, and description */
-
-    width: 95%; /* Each image container takes up 30% of the row */
-  }
-
-  .image-container img {
-    width: 95%; /* Image takes full width of the container */
-    height: fit-content; /* Maintain aspect ratio */
+.image-container img {
+  width: 98%;
+  height: fit-content;
+}/
