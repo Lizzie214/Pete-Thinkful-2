@@ -9,6 +9,16 @@ a:link {
   font-size: 14px;
 }
 
+.header-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  
+}
+
+.nav-links a {
+   
+  color: #d62828;
+}
 body { 
   background-color: #eae2b7; 
 }
@@ -43,8 +53,24 @@ h4 {
   margin-left: 3px;
 }
 
+.hi-section {
+  display: flex;
+  justify-content: right; /* Center content horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Space between the image and text */
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 150px; /* Adjust size as needed */
+}
+
+.about-content {
+  max-width: 600px; /* Adjust the width of the content area */
+}
+
 h1, h2, h3, h4, p, li, article {
-  font-family: "Playfair Display", Times, serif;
+  font-family: "Playfair Display", Times, Sans-serif;
   color: #003049; /
 }
 
@@ -53,7 +79,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h3 {
@@ -69,13 +95,14 @@ p {
   line-height: 1.5;
 }
 
+
 li {
   font-size: 14px;
 }
 
 article div {
   text-align: center;
-  width: 50%;
+  width: 75%;
 }
 
 div {
@@ -113,3 +140,12 @@ img {
   width: 98%;
   height: fit-content;
 }
+.image-container h4{
+  margin-top: 10px;
+}
+
+  .myDiv {
+    width: 200px;
+    height: 100px;
+  }
+
