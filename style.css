@@ -5,18 +5,38 @@ a {
 
 a:link { 
   color: #d62828;  
-  font-family: "Playfair Display", Times, serif;
+  font-family: "Playfair Display", Times, San-serif;
   font-size: 14px;
 }
 
+header {
+  background-color: #eae2b7; 
+  padding: 50px;
+}
+
 .header-container {
-  display: flex;
-  align-items: center; /* Align items vertically */
-  
+  display: flex; row
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+
+.logo {
+  font-family: "Playfair Display", Times, San-serif;
+  font-size: 32px;
+  color: #133e5c;
 }
 
 .nav-links a {
-   
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 20px; 
+  text-decoration: underline; 
+  color: #003049;
+}
+
+.nav-links a {
   color: #d62828;
 }
 body { 
@@ -40,7 +60,7 @@ h4 {
 }
 
 .contact { 
-  display: flex;
+  display: flex;center
   flex-direction: colum;
   align-items: center; /
 }
@@ -55,18 +75,18 @@ h4 {
 
 .hi-section {
   display: flex;
-  justify-content: right; /* Center content horizontally */
-  align-items: center; /* Align items vertically */
-  gap: 20px; /* Space between the image and text */
+  justify-content: right; 
+  align-items: center; 
+  gap: 20px; 
 }
 
 .image-circle {
   border-radius: 50%;
-  width: 150px; /* Adjust size as needed */
+  width: 150px; 
 }
 
 .about-content {
-  max-width: 600px; /* Adjust the width of the content area */
+  max-width: 600px; 
 }
 
 h1, h2, h3, h4, p, li, article {
@@ -110,15 +130,6 @@ div {
   width: 600px;
 }
 
-img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
  hr {
    border: 1px solid black;
    width: 100%;
@@ -143,9 +154,3 @@ img {
 .image-container h4{
   margin-top: 10px;
 }
-
-  .myDiv {
-    width: 200px;
-    height: 100px;
-  }
-
