@@ -1,98 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pete Thinkful</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Pete Thinkful | Artist</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Assuming your CSS file is called styles.css -->
 </head>
+<body>
 
-    <header>
-<header class="header-container">
-  <h1 class="site-title">Pete Thinkful | Artist</h1>
-  <nav class="nav-links">
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-  </nav>
+  <!-- Header Section -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        Pete Thinkful | Artist
+      </div>
+      <nav class="nav-links">
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
   </header>
 
-<body> 
- <div> 
-<h2> About</h2>
- </div>
-<div class="container">
-<section class="hi-section" id="hi">
-<img
-        class="image-circle"
-        src="images/pete-thinkful.png"
-        alt="Pete Thinkful"/>
-<div class="about-content">
-
-<h3>Hi! I'm Pete Thinkful</h3>
-<p>I'm an artist living in Denver, Colorado.</p>
-<p>As an artist, I'm interested in:</p>
-<ul>
-<li>Producing abstract art</li>
-<li>Creating street graffiti art</li>
-<li>Connecting with like-minded artists</li>
-</ul>
-<p>Please feel free to take a look at my website and feel free to <a href="#">contact me</a>.</p>
+  <!-- About Section -->
+  <section id="about">
+    <div class="hi-section">
+      <img src="profile-pic.jpg" alt="Pete Thinkful" class="image-circle"> <!-- Replace with your actual image source -->
+      <div class="about-content">
+        <h2>About</h2>
+        <h3>Hi! I'm Pete Thinkful</h3>
+        <p>I'm an artist living in Denver, Colorado.</p>
+        <p>As an artist, I'm interested in:</p>
+        <ul>
+          <li>Producing abstract art</li>
+          <li>Creating street graffiti art</li>
+          <li>Connecting with like-minded artists</li>
+        </ul>
+        <p>Please feel free to take a look at my website and feel free to <a href="#">contact me</a>.</p>
       </div>
-    </section>
+    </div>
 
-
-    <section>
+    <div class="background-section">
       <h3>Pete's Background</h3>
       <p>After graduating college, I became an art teacher and worked with beginners and professionals. I love art and my works have been featured in major art galleries across the globe.</p>
       <p>If you're looking to hire an artist or if you're an artist looking for a collaborator for your next project, please reach out! I'm so excited to work with other artists to create new art.</p>
-    </section>
-<hr>
-    <section class="porfolio" id="porfolio">
-
-<section id="portfolio">
-<h2>Portfolio</h2>
-
-<div class="image-row">
-<div class="image-container">
-
-  <h4>Abstract Red</h4>
-<img src="images/abstract-red.png" alt="Abstract Red">
-<p>Vaporware wayfarers heirloom neutra disrupt. Activated charcoal waistcoat scenester hell of.</p>
-</div>
-
-  <div class="image-container">
-<h4>Spiral Zany</h4>
-<img src="images/spiral-zany.png" alt="Spiral Zany">
-<p>Sriracha portland taxidermy cronut messenger bag, vegan distillery. Vaporware kickstarter air plant mumblecore food truck.</p>
-</div>
-
-  <div class="image-container">
-<h4>Melted Rainbow</h4>
-<img src="images/melted-rainbow.png" alt="Melted Rainbow"><p>Edison bulb single-origin coffee snackwave, actually ennui locavore shabby chic forage.</p>
-</div>
-
-</section>
-
-<hr>
-
-<section id="contact">
-<h3>Contact</h3> 
- <p>I'd love to hear from you! Please feel free to contact or follow me:</p>
-<ol>
-  <li><a href="#contact">LinkedIn</a></li>
-  <li><a href="#contact">Instagram</a></li>
-  <li><a href="#contact">Pinterest</a></li>
-</ol>
+    </div>
   </section>
 
-  <footer>
-<p>© Pete Thinkful. All rights reserved.</p>
-    </footer>
-  </div>
-</body>
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="image-row">
+      <div class="image-container">
+        <img src="abstract-red.jpg" alt="Abstract Red">
+        <h4>Abstract Red</h4>
+        <p>Vaporware wayfarers heirloom neutra disrupt. Activated charcoal waistcoat scenester hell of.</p>
+      </div>
 
+      <div class="image-container">
+        <img src="spiral-zany.jpg" alt="Spiral Zany">
+        <h4>Spiral Zany</h4>
+        <p>Sriracha portland taxidermy cronut messenger bag, vegan distillery.</p>
+      </div>
+
+      <div class="image-container">
+        <img src="melted-rainbow.jpg" alt="Melted Rainbow">
+        <h4>Melted Rainbow</h4>
+        <p>Edison bulb single-origin coffee actually ennui locavore shabby chic forage.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I'd love to hear from you! Please feel free to contact or follow me:</p>
+    <ul>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Pinterest</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <hr>
+    <p>&copy; Pete Thinkful. All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
