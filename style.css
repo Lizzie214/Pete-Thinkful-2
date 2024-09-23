@@ -1,97 +1,60 @@
-a { 
+/* General link styles */
+a {
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
 
-a:link { 
-  color: #d62828;  
-  font-family: "Playfair Display", Times, San-serif;
+a:link {
+  color: #d62828;
+  font-family: "Playfair Display", Times, Sans-serif;
   font-size: 14px;
 }
 
+a:hover {
+  color: #f77f00;
+}
+
+/* Header styles */
 header {
-  background-color: #eae2b7; 
+  background-color: #eae2b7;
   padding: 50px;
 }
 
 .header-container {
-  display: flex; row
-  justify-content: space-between; 
-  align-items: center; 
-  max-width: 1000px; 
-  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .logo {
-  font-family: "Playfair Display", Times, San-serif;
+  font-family: "Playfair Display", Times, Sans-serif;
   font-size: 32px;
   color: #133e5c;
 }
 
+/* Navigation link styles */
 .nav-links a {
   font-family: Arial, sans-serif;
   font-size: 14px;
-  margin-left: 20px; 
-  text-decoration: underline; 
+  margin-left: 20px;
+  text-decoration: underline;
   color: #003049;
 }
 
-.nav-links a {
+.nav-links a:hover {
   color: #d62828;
 }
-body { 
-  background-color: #eae2b7; 
-}
 
-a:hover { 
-  color:#f77f00; 
-}
-
-img {
-  width: 50px;
-}
-
-h1, h2, h3, h4, nav, footer {
-  text-align: center;
-}
-
-h4 { 
-  text-align: right; 
-}
-
-.contact { 
-  display: flex;
-  flex-direction: column;
-  align-items: center; /
-}
-
-.image-circle {
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 50%; 
-  margin-left: 3px;
-}
-
-.hi-section {
-  display: flex;
-  justify-content: right; 
-  align-items: center; 
-  gap: 20px; 
-}
-
-.image-circle {
-  border-radius: 50%;
-  width: 150px; 
-}
-
-.about-content {
-  max-width: 600px; 
+/* Body and general text styling */
+body {
+  background-color: #eae2b7;
 }
 
 h1, h2, h3, h4, p, li, article {
   font-family: "Playfair Display", Times, Sans-serif;
-  color: #003049; /
+  color: #003049;
 }
 
 h1 {
@@ -108,16 +71,12 @@ h3 {
 
 h4 {
   font-size: 20px;
+  text-align: right; /* If needed, remove if everything is centered */
 }
 
-p {
+p, li {
   font-size: 14px;
   line-height: 1.5;
-}
-
-
-li {
-  font-size: 14px;
 }
 
 article div {
@@ -130,27 +89,62 @@ div {
   width: 600px;
 }
 
- hr {
-   border: 1px solid black;
-   width: 100%;
- }
+/* Image styles */
+img {
+  width: 50px;
+}
+
+.image-circle {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  margin-left: 3px;
+  width: 150px; /* To ensure consistency */
+}
+
+.hi-section {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: auto; /* Ensures centering */
+}
 
 .image-row {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   gap: 3%;
 }
 
 .image-container {
   text-align: center;
-  width: 50%;
+  width: 30%; /* Adjusted for better alignment */
 }
 
 .image-container img {
-  width: 98%;
-  height: fit-content;
+  width: 100%;
+  height: auto; /* Ensure proper scaling */
 }
-.image-container h4{
+
+.image-container h4 {
   margin-top: 10px;
+}
+
+/* Contact section */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Horizontal rule */
+hr {
+  border: 1px solid black;
+  width: 100%;
 }
